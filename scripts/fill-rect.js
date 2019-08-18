@@ -1,8 +1,3 @@
-/*
- * (c) Tapsa 2019
- * See license in LICENSE
- */
-
 /**
   * Draw a filled rectangle.
   *  x, y           = top left corner position
