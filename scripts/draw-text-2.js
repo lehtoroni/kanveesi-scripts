@@ -25,8 +25,6 @@ window.drawText2 = function(text, px, py, scale, bg, fg){
     let c = 0;
     let iv = setInterval(() => {
 
-        c++;
-
         setCurrentColor(bg);
 
         let char = text[c];
@@ -49,6 +47,8 @@ window.drawText2 = function(text, px, py, scale, bg, fg){
             }
 
         }
+        
+        c++;
 
         if (c >= text.length) {
             clearInterval(iv);
