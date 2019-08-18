@@ -3,7 +3,13 @@
  * See license in LICENSE
  */
 
-window.fillRect = function(x, y, w, h){
+/**
+  * Draw a filled rectangle.
+  *  x, y           = top left corner position
+  *  w, h           = width and height
+  *  currentColor   = fill color
+  */
+window.fillRect = function(x, y, w, h, currentColor){
 
     let i = y;
     let iMax = y + h;
