@@ -58,3 +58,7 @@ window.drawText2 = function(text, px, py, scale, bg, fg){
 
 
 }
+
+function getBit(bt, position) {
+   return (bt >> position) & 1;
+}
